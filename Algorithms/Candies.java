@@ -47,7 +47,6 @@ public class Candies {
       for (int i=0; i<size; i++){
         sumCandies += Math.max(left[i],right[i]);
       }
-
       return sumCandies;
     }
 
